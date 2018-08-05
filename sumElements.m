@@ -5,6 +5,6 @@ total=0;
 %reading through elements and adding to total 
 for j=1:m
     for i=1:n
-        total=total+inputMat(n,m);
+        total=total+inputMat(i,j);
     end
 end
